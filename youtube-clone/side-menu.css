@@ -1,0 +1,32 @@
+
+
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left: 10px;
+    top: 50px;  
+
+}
+  
+
+.img{
+    width: 50px;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.fa-solid.fa-house,.fa-solid.fa-compass,.fa-regular.fa-circle-play{
+font-size: 20px;
+padding-bottom: 30px;
+ padding-top: 30px;
+}

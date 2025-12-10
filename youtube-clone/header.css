@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding-bottom: 1000px;
+    padding-left: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: white;
+ 
+    position: sticky;
+    top: 0;
+    
+   
+}
+
+.left {
+    width: 200px;
+     
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-shrink: 0;
+      margin-left: -50px;
+}
+
+.middle {
+    flex: 1;
+    
+      display: flex;
+      justify-content: center;
+    margin-right: 40px;
+    margin-left: 40px;
+      align-items: center;
+      max-width: 700px;
+}
+
+.right {
+    width: 200px;
+      
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-shrink: 0;
+}
+
+.search input{
+    width: 100%;
+ min-width: 0;
+    height: 30px;
+    margin-right: -1.2px;
+    border-top-right-radius: 0px;
+   border-color: gainsboro;
+    border-bottom-right-radius: 0px;
+    border-width: 1.5px;
+    box-shadow: inset 1px 1px 3px rgb(128, 128, 128);
+}
+
+.search{
+     width: 70%;
+     margin-right: 20px;
+     display: flex;
+    align-items: center;
+    border-radius: 0;
+   
+
+    
+   
+}
+
+
+.fa-solid.fa-bars,.fa-brands.fa-youtube,.fa-solid.fa-magnifying-glass
+,.fa-solid.fa-microphone,.fa-solid.fa-video
+,.fa-solid.fa-bell,.fa-solid.fa-user{
+    font-size: 20px;
+
+}
+
+.material-symbols-outlined{
+     font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24; /* opsz = optical size */
+  font-size: 59px;
+}
+.fa-brands.fa-youtube{
+    color: red;
+}
+.fa-brands.fa-youtube::after{
+    content:"Youtube";
+    font-size: 19px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: black;
+    font-family:Roboto;
+    
+}
+
+.fa-solid.fa-magnifying-glass{
+    border: 1.5px solid rgb(147, 147, 147);
+    width: 45px;
+    height: 32px;
+    align-content: center;
+    padding-left: 10px;
+     border-color: gainsboro;
+     position: relative;
+}
+.hover-search{
+    background-color: rgb(147, 147, 147);
+    position: absolute;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    height: 29px;
+    text-align: center;
+    align-content: center;
+    width: 70px;
+    color: white;
+    left: -9px;
+    top:50px;
+    display: none;
+}
+.fa-solid.fa-magnifying-glass:hover{background-color: gainsboro;}
+.fa-solid.fa-magnifying-glass:hover .hover-search{display: inline-block;}
+.fa-solid.fa-magnifying-glass:active{
+    background-color: rgb(196, 196, 196);
+}
+.fa-solid.fa-microphone{
+    padding: 10px;
+    padding-left:12px ;
+     padding-right:12px ;
+     border-radius: 40px;
+   
+    background-color: rgb(246, 246, 246);
+    
+}
+
